@@ -1,0 +1,73 @@
+---
+posttype: "work"
+path: "/work/lambton-college"
+date: "2020-02-13"
+title: "Lambton College"
+subtitle: "Lil saying here for Lambton College"
+tile: "../../../images/work-tiles/LC-Tile.jpg"
+backgroundColor: "#005587"
+projectHeader: "../../../images/work-projects/LambtonCollege/LambtonCollege-Background01.png"
+categories:
+  - "Print, Video Production, & AR Campaign"
+tags:
+  - "app"
+  - "iOS"
+  - "Android"
+cover: "./main.jpg"
+projectPage:
+  - type: "single-view"
+    image: "example.png"
+  - type: "gallery"
+    images:
+      - "example1"
+      - "example2"
+      - "example3"
+---
+
+import Banner from "../../../components/project/banner"
+import Review from "../../../components/project/review"
+import ProjectInfo from "../../../components/project/project-info"
+import LargeImage from "../../../components/project/largeImage"
+import TwoTextInfo from "../../../components/project/two-text-info"
+import VideoText from "../../../components/project/video-text"
+import ImageVideoShowcase from "../../../components/project/image-video-showcase"
+import CenterImage from "../../../components/project/center-image"
+import Campaign from "../../../components/project/campaign"
+import RightImage from "../../../components/project/right-image"
+import ImageGallery from "../../../components/project/image-gallery"
+import TextImage from "../../../components/project/text-image"
+import TextImageLeft from "../../../components/project/text-imageLeft"
+
+import HeaderImage from "../../../images/work-projects/LambtonCollege/LambtonCollege-Background01.png"
+import Mockup from "../../../images/work-projects/LambtonCollege/LambtonCollege-Mockup01.jpg"
+import LCVid1 from "../../../images/lc_vid1.mp4"
+import LCVid2 from "../../../images/lc_vid2.mp4"
+import Lion from "../../../images/work-projects/LambtonCollege/lion.png"
+import LionGif from "../../../images/work-projects/LambtonCollege/LC-LionRoar.gif"
+import Guys from "../../../images/work-projects/LambtonCollege/LambtonCollege-basketball-team.png"
+import GuysGif from "../../../images/work-projects/LambtonCollege/LC-Bball.gif"
+import CampaignPicStudents from "../../../images/work-projects/LambtonCollege/LC-ChangeEverything02.jpg"
+import RightImageStudents from "../../../images/work-projects/LambtonCollege/LC-ChangeEverything01.jpg"
+import Arrow from "../../../images/common/arrow.png"
+
+< Banner backgroundImage={HeaderImage} subtitle={"Lil’ Saying Here"} mobSubtitle={"Lil’ Saying Here"} title={"Lambton College"} />
+
+< ProjectInfo paragraph={[`Since 2018, tmrrw inc. has been working diligently with Lambton College’s marketing team. The team has worked on a wide variety of projects including print collateral, internal and external video content and even an augmented reality campaign designed to launch their current slogan Change Everything.` ]} textList={[`Print Design`, `Videography + Photography`, `Animation`, `Development`, `Augmented Reality`, `Consulting`, `Brand Strategy`, ]} dataStart={`October 2018 - Present`} Marg />
+
+< LargeImage image={Mockup} />
+
+< TwoTextInfo text1={[`A variety of print pieces have been created for Lambton College. Ensuring all collateral pieces consistently follows the Lambton College Design System - from international program guides to convocation booklets, event marketing material, promotional documents and more.`,]} text2={[`Each project received from the College, gives tmrrw inc. another opportunity to creatively push Lambton College’s brand. The team is always trying to find new ways to push boundaries (within their brand rules of course).`]} paddingBottom={"10px"} />
+
+< VideoText colour={'#005587'} text={"Our relationship with the college began with video production support and has grown to much more over the past couple of years. Our production team has always worked in collaboration with Lambton college in a variety of configurations. Depending on the project our team fills in the gaps necessary to complete projects on time and on budget."} videos={[{'video': LCVid1, 'name': 'Interview Video 1'}, {'video': LCVid2, 'name': 'Interview Video 2'}]} />
+
+< TextImage top={'100px'} h3color={"#005587"} h2color={"#0076A8"} title={"Varsity"} subtitle={"New energy for Varsity Sports"} description={"Varsity sports are important for the College's student life and culture and attracting top talent means standing out from the rest. We helped them do just that with hype videos that are as authentic as they are entertaining. It wasn’t just the students that loved them. Recruitment measured absolute success as the result."} image={LionGif} leftImage/>
+
+< ImageVideoShowcase rightVideo={LCVid1} />
+
+< CenterImage image={GuysGif} />
+
+< Campaign campaignheaderH2Color={"#005587"} campaignheaderH3Color={"#0076A8"} title={"Augmented Reality Campaign"} subtitle={["Change Everything"]} description={["Over the past several years the College has flipped the script in education, experience, research and innovation. A couple weeks out from launching their new slogan their marketing team approached tmrrw inc. for an innovative way to add some drama to their launch. We thought what better way than through interactive technology like augmented reality. Our team filmed the video, designed the posters and developed the AR portal in just days. The launch was a smash hit."]} image={CampaignPicStudents} />
+
+< Review reviewheaderH3Color={"#00A9E0"} title={["Review 01", "Review 02", "Review 03"]} description={["Neutra franzen raw denim church-key art party hammock,kickstarter taxidermy humblebrag selvage bitters actually live-edge. Hot chicken butcher health goth craft beer", "Neutra franzen raw denim church-key art party hammock, kickstarter taxidermy humblebrag selvage bitters actually live-edge. Hot chicken butcher health goth craft beer", "Neutra franzen raw denim church-key art party hammock,kickstarter taxidermy humblebrag selvage bitters actually live-edge. Hot chicken butcher health goth craft beer",]} review1Area={""} review2Area={""} review3Area={""} video={LCVid1} arrow={Arrow} />
+
+< RightImage image={RightImageStudents} />

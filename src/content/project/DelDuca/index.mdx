@@ -1,0 +1,54 @@
+---
+posttype: "work"
+path: "/work/steven-del-duca"
+date: "2020-02-15"
+title: "Steven Del Duca"
+subtitle: "Let's talk politics"
+tile: "../../../images/work-tiles/DelDuca-Tile.mp4"
+projectHeader: "../../../images/work-projects/DelDuca/DelDuca-Background.jpg"
+backgroundColor: "#DF2127"
+categories:
+  - "UI Design & Web Development"
+tags:
+  - "app"
+  - "iOS"
+  - "Android"
+cover: "./main.jpg"
+---
+
+import Banner from "../../../components/project/banner"
+import ProjectInfo from "../../../components/project/project-info"
+import PortfolioSlider from "../../../components/project/slider"
+import LargeImage from "../../../components/project/largeImage"
+import TwoTextInfo from "../../../components/project/two-text-info"
+import HoverPlay from "../../../components/project/hover-play"
+import TwoPhones from "../../../components/project/two-phones"
+
+import HeaderImageDelduca from "../../../images/work-projects/DelDuca/DelDuca-Background.jpg"
+import DucaHomes from "../../../images/work-projects/DelDuca/ducahome.png"
+import DelDucaStorySlide from "../../../images/work-projects/DelDuca/Optimized-DelDuca-SStory-01.jpg"
+import DelDucaOurPlanSlide from "../../../images/work-projects/DelDuca/Optimized-DelDuca-OurPlan-01.jpg"
+import DucaPort from "../../../images/work-projects/DelDuca/DelDuca-Mockup.jpg"
+import Phone1 from "../../../images/work-projects/DelDuca/DelDuca-MobileMockup02.png"
+import Phone2 from "../../../images/work-projects/DelDuca/DelDuca-MobileMockup03.png"
+import Phone3 from "../../../images/work-projects/DelDuca/DelDuca-MobileMockup01.png"
+import VerticalText from "../../../images/work-projects/DelDuca/DelDuca-VerticalLogo.png"
+import Hover1 from "../../../images/work-projects/DelDuca/DD-MapPreview.mp4"
+import RedLine from "../../../images/work-projects/DelDuca/red-line.png"
+import ArrowPlay from "../../../images/work-projects/AltSpace/Arrow-play.png"
+
+< Banner backgroundImage={HeaderImageDelduca} subtitle={"Let's talk politics"} mobSubtitle={"Let's talk politics"} title={"Steven Del Duca"} transferal/>
+
+< ProjectInfo paragraph={[`tmrrw inc. designed and developed an interactive web experience for Steven Del Duca - who took part in and won - the 2020 Leadership race for Ontario Liberal Party.`, `Our team followed a simple brief - design a web experience that stands out from the rest and easily communicates the policies of Steven Del Duca and the solutions he would pursue as Liberal Leader for Ontario. Additionally, this experience needed to be easily translated from English to French and be programmed within Nationbuilder - an advocacy platform for organizations and leaders.`,]} textList={[`Strategy,`,`Consulting`,`UI/UX Design`,`Web Development`,`Nation Builder`,]} dataStart={`December 2019`} projectLink={["stevendelduca.ca", "CBC News"]} Marg={true}/>
+
+< LargeImage image={DucaHomes} />
+
+< TwoTextInfo text1={[`The team worked closely with Del Duca’s campaign team and branding consultants at Key Gordon. After the brand was designed for Steven Del Duca, tmrrw inc took its core design elements and implemented it into the interactive experience (example above).`, `Through clever design and development tmrrw inc. was able to take an experimental approach while not having to sacrifice functionality. Initial users would be visiting Del Duca’s website to find out: who [he is], why [is he running] and where [will he be located to discuss political issues].`]} text2={[`Because of this, the experience for each page of the ‘who, why and where’ were uniquely designed to explain his story, his plan and his whereabouts in Ontario.`, `Steven’s Story and Our Plan webpages were designed horizontally to foreshadow his journey forward into becoming a political leader. Functionally speaking, the design helped to define Steven’s step by step narrative and greatly highlight his main call to action.`,]} paddingBottom={"10px"} />
+
+< PortfolioSlider images={[DelDucaStorySlide, DelDucaOurPlanSlide]} path={`steven-del-duca`} />
+
+< HoverPlay phone={Phone3} verticalText={VerticalText} video={Hover1} image={ArrowPlay} />
+
+< TwoPhones phone1={Phone1} phone2={Phone2} title={"Custom Development for Mobile"} line={RedLine} subtitle={"Although the website’s main experimental features were created for desktop, tmrrw inc. maintained an equivalent experience dedicated for the mobile and tablet experience."} />
+
+< LargeImage image={DucaPort} noPaddingBottom />

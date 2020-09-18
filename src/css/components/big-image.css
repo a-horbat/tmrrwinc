@@ -1,0 +1,33 @@
+.big-section {
+  background-size: cover;
+}
+.big-section video {
+  width: 100%;
+}
+.big-section .container {
+  padding: 0 40px;
+}
+
+.big-section img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.mobImage {
+  display: none;
+}
+@media screen and (max-width: 479px) {
+  .big-section img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .mobImage {
+    display: block;
+    margin-top: 73px;
+  }
+  .deskImage {
+    display: none;
+  }
+}

@@ -1,0 +1,150 @@
+.banner {
+  background: #005587;
+  height: 100vh;
+  background-repeat: no-repeat !important;
+  position: relative;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+}
+.banner-duca {
+  background-position: 0% 50% !important;
+}
+
+.banner h4 {
+  font-family: "EskorteLatin-Italic";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  color: #e9f3f4;
+  position: relative;
+  padding-bottom: 18px;
+  padding-left: 3px;
+}
+
+.banner h4::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 1.25px;
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.banner h1 {
+  color: #fff;
+  margin: 30px 0 0 0;
+}
+
+.banner .row {
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.banner .container,
+.banner .row,
+.banner .col-lg-12 {
+  height: 100%;
+}
+.banner__vertical-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 99999;
+}
+
+.banner-section h1 {
+  font-family: "Gramatika-Bold";
+  font-size: 70px;
+  line-height: 110%;
+  text-align: center;
+  color: #512a44;
+  max-width: 1010px;
+  margin: 0 auto;
+}
+.banner-section {
+  /* padding: 200px 0 100px 0;
+	position: relative;
+	min-height: 810px; */
+  position: relative;
+  height: 100vh;
+}
+.banner-content {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.skull {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+.title-altspace {
+  width: 24vw;
+  max-height: 170px;
+}
+.logo-desktop {
+  margin-left: 15%;
+  max-height: 185px;
+  max-width: 185px;
+}
+.logo-down {
+  margin-top: 10%;
+}
+.logo-mobile {
+  display: none;
+}
+.skull-image {
+  height: 108%;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .project-title h1 {
+    max-width: 40vw;
+  }
+  .title-altspace {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .project-title h1 {
+    max-width: 75vw;
+  }
+  .banner-mobile {
+    margin-top: -110px;
+  }
+  .skull-image {
+    height: 740px;
+    bottom: 0;
+    top: 0;
+  }
+  .logo-desktop {
+    display: none;
+  }
+  .title-altspace {
+    width: 35vh;
+    max-height: 128px;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+  .banner-duca {
+    background-position: 72% 50% !important;
+  }
+  .banner__vertical-middle {
+    top: 48%;
+    left: 50%;
+  }
+}

@@ -1,0 +1,72 @@
+---
+posttype: "work"
+path: "/work/altspace/"
+date: "2020-01-01"
+backgroundColor: "#005587"
+title: "Alt space"
+subtitle: "Coworking is the name of the game."
+tile: "../../../images/work-tiles/AltSpace-Tile.mp4"
+projectHeader: "../../../images/work-projects/AltSpace/altspace.png"
+categories:
+  - "Branding, UI Design & Web Development"
+tags:
+  - "app"
+  - "iOS"
+  - "Android"
+cover: "./main.jpg"
+---
+
+import Banner from "../../../components/project/banner"
+import ProjectInfo from "../../../components/project/project-info"
+import BigImage from "../../../components/project/big-image"
+import LargeImage from "../../../components/project/largeImage"
+import TwoTextInfo from "../../../components/project/two-text-info"
+import PortfolioSlider from "../../../components/project/slider"
+import HoverPlay from "../../../components/project/hover-play"
+import Campaign from "../../../components/project/campaign"
+import RightImage from "../../../components/project/right-image"
+import CenterImage from "../../../components/project/center-image"
+import TwoCards from "../../../components/project/two-cards"
+import LogoImage from "../../../components/project/logo-center"
+
+import AltSpaceHeader from "../../../images/work-projects/AltSpace/altspace.png"
+import AltSpaceVideo from "../../../images/work-projects/AltSpace/AltSpace-Icons.mp4"
+import DTMarket from "../../../images/work-projects/AltSpace/AltSpace-Image.jpg"
+import MarketMob from "../../../images/work-projects/AltSpace/AltSpace-ImageMob.png"
+import Site1 from "../../../images/work-projects/AltSpace/altspacesite1.png"
+import Site2 from "../../../images/work-projects/AltSpace/altspacesite2.png"
+import AltSpaceText from "../../../images/work-projects/AltSpace/AltSpaceLogo-Vertical.png"
+import AltSpacePhone from "../../../images/work-projects/AltSpace/AltSpace-MobileMockup01.png"
+import VideoHover from "../../../images/work-projects/AltSpace/AltSpace-Preview.mp4"
+import Panel from "../../../images/work-projects/AltSpace/CtrlRoom-Image.jpg"
+import CtrlRoom from "../../../images/work-projects/AltSpace/CtrlRoom-Logo.jpg"
+import PortfolioPage1 from "../../../images/work-projects/AltSpace/Icon-PortfolioPage_1.png"
+import PortfolioPageMob from "../../../images/work-projects/AltSpace/Icon-PortfolioPage_Mob.png"
+import ArrowPlay from "../../../images/work-projects/AltSpace/Arrow-play.png"
+import AltLogoWhite from "../../../images/work-projects/AltSpace/AltLogoWhite.png"
+import AltLogoBlack from "../../../images/work-projects/AltSpace/AltLogoBlack.png"
+import AltLogoMobile from "../../../images/work-projects/AltSpace/AltLogoMobile.png"
+
+< Banner backgroundImage={AltSpaceHeader} title={`Alt Space`} subtitle={`Coworking is the name of the game.`} mobSubtitle={`Lil’ Saying Here`} images={[PortfolioPage1, PortfolioPageMob]} transferal/>
+
+< ProjectInfo paragraph={[`The iconic Taylor’s Furniture building has long been observed as one of Sarnia’s most historic buildings. The site now known as the location where the notorious gangster and bank robber Red Ryan was slain has failed to reach its potential since the closure of Taylor's Furniture in 2010. In 2017 our team at tmrrw inc. (formally known as Tomorrow Media) approached the property owners with a pitch to revitalize the building by creating a coworking space and retail incubation for small to medium sized businesses.`]} dataStart={`October 2017 - Present`} links={[{name: `The Sarnia Journal`, link: `thesarniajournal.ca/coworking-space-offers-shared-environment-in-downtown/`,}, {name: `SL Chamber of Commerce`, link: `slchamber.ca/downtown-co-working-space-launched-chamber-members/`}, {name: `The Observer`, link: `www.theobserver.ca/news/local-news/welcome-to-southwestern-ontarios-co-op-revolution/`}]} />
+
+< LargeImage image={AltSpaceVideo} video />
+
+< TwoTextInfo text1={[`Our team helped transform the identity of 140 Christina Street N. from the old Taylor's Furniture building to Altspace. A multi functional building equipped with 8 offices, retail incubation market and an event center.`,]} text2={[`On top of partnering in the business development of the building our team developed a completely custom web experience to reflect the uniquely abstract brand identity we also designed.`]} paddingBottom={"10px"} />
+
+< LogoImage image={AltLogoMobile} logo={AltLogoWhite}/>
+
+< TwoCards images={[AltLogoBlack, AltLogoWhite]} />
+
+< BigImage image={DTMarket} imageMob={MarketMob} noPaddingBottom />
+
+< PortfolioSlider images={[Site1, Site2]} color={"#151515"} />
+
+< HoverPlay phone={AltSpacePhone} verticalText={AltSpaceText} video={VideoHover} image={ArrowPlay} correct={true} changeToBlack />
+
+< Campaign campaignheaderH2Color={"#1D1D1D"} campaignheaderH3Color={"#512A44"} title={"Ctrl Room"} subtitle={[`Music Studio`, `Giving back`]} description={[`Throughout the years our team at tmrrw inc. has long inquired about the development of a modern music studio In Sarnia-Lambton. When the opportunity presented itself as a vacancy, our team jumped on the opportunity to build one ourselves. This was the inception of the Ctrl Room, positioned as a sub brand of the Altspace - a musicians co-operative and rentable studio. In addition to creating the identity we also built a website so musicians in the area could learn about our services, technology and pricing.`, `Part of our vision for the Ctrl Room was to create a sustainable model that allows us to give back to the community in the form of opportunity for youth. As most studios cost anywhere from $100-$200/hour many youth looking to create music have a financial barrier when it comes to the essentials like tracking vocals, mixing and mastering. Funded through our studio memberships and rentals, Ctrl Room awards 6 young artists the opportunity to track a song each year. Sessions are monitored by experienced mentors that teach the youth essential studio skills and provide hands on experience for them to learn the trade.`]} image={CtrlRoom} twoblocks={true} />
+
+< RightImage image={Panel} changes={true} />
+
+< CenterImage image={AltSpaceHeader} logoImage={PortfolioPage1} />

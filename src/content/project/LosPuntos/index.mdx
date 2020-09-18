@@ -1,0 +1,69 @@
+---
+posttype: "work"
+path: "/work/los-puntos/"
+date: "2020-08-27"
+backgroundColor: "#CC9F26"
+title: "Los Puntos"
+subtitle: Taco Tuesday...Everday
+tile: "../../../images/work-tiles/Los-Puntos.jpg"
+projectHeader: "../../../images/work-projects/LosPuntos/LP-Background.jpg"
+categories:
+  - "Video Production"
+tags:
+  - "app"
+  - "iOS"
+  - "Android"
+cover: "./main.jpg"
+---
+
+import Banner from "../../../components/project/banner"
+import ProjectInfo from "../../../components/project/project-info"
+import LargeImage from "../../../components/project/largeImage"
+import TwoTextInfo from "../../../components/project/two-text-info"
+import VideoText from "../../../components/project/video-text"
+import TextImage from "../../../components/project/text-image"
+import TextImageLeft from "../../../components/project/text-imageLeft"
+import PortfolioSlider from "../../../components/project/slider"
+import ImageGallery from "../../../components/project/image-gallery"
+import HoverPlay from "../../../components/project/hover-play"
+
+import Black from "../../../images/work-projects/LosPuntos/LP-Background.jpg"
+import Skull from "../../../images/work-projects/LosPuntos/Skull.png"
+import LambtonCol from "../../../images/work-projects/LosPuntos/LP-Image01.jpg"
+import Table from "../../../images/work-projects/LosPuntos/Table.png"
+import LCVid1 from "../../../images/lc_vid1.mp4"
+import LPImage from "../../../images/work-projects/LosPuntos/LP-Image03.jpg"
+import BigLPImage from "../../../images/work-projects/LosPuntos/LP-Image04.jpg"
+import YellowImage from "../../../images/work-projects/LosPuntos/LP-Image05.jpg"
+import Slide1 from "../../../images/work-projects/LosPuntos/LP-Web01.jpg"
+import Slide2 from "../../../images/work-projects/LosPuntos/Menu-Appetizers.png"
+import Jarritos from "../../../images/work-projects/LosPuntos/Jarritos.png"
+import Foods from "../../../images/work-projects/LosPuntos/Foods.png"
+import Taco from "../../../images/work-projects/LosPuntos/Taco.png"
+import Phone from "../../../images/work-projects/LosPuntos/LP-MobileMockup.png"
+import VideoPlay from "../../../images/work-projects/LosPuntos/LP-Preview.mp4"
+import ArrowPlay from "../../../images/work-projects/AltSpace/Arrow-play.png"
+
+< Banner backgroundImage={Black} image={Skull} colour={'#000'} subtitle={"Taco Tuesday...Everday"} mobSubtitle={"Taco Tuesday...Everday"} title={"Los puntos Cantina"}/>
+
+< ProjectInfo paragraph={[`Los Puntos Cantina is a mexican inspired restaurant located in the heart of Point Edward Village. With only a logo, the restaurant suffered without having a working design system in place. The tmrrw inc. team was tasked to create a design system that would provide cohesiveness across the board. This system would benefit the restaurant in creating a better experience for all their current and future customers.`]} textList={[`Web Development`, `Web Design`, `Print Design`, `Videography`, `Photography`, `Brand Strategy`]} dataStart={`December 2019 - April 2020`} />
+
+< LargeImage image={LambtonCol} noPaddingBottom />
+
+< TwoTextInfo text1={[`With only being open less than a year, Los Puntos has effectively crafted an identity through the use of it’s skull logo. Through its unique design and the bright vibrant interiors of the restaurant the mood was`]} text2={[`already set, it just needed a clear direction. With a refreshed identity we started to tackle key customer touch points like the menu to solve existing problems and enhance the customer experience.`]} paddingBottom={"10px"} />
+
+< LargeImage image={Table} noPaddingBottom />
+
+< VideoText colour={"#FFD610"} text={"As one of a few mexican restaurants in the area, Los Puntos was looking for ways to stand out and market it’s delicious menu. The team wanted to showcase the fresh ingredients they use daily to create their flavour packed, authentic mexican tacos. We thought what better way to do that then a promo video giving customers an intimate look at the process."} videos={[{video: LCVid1, name: "", },]} textColor={"#000"} noNavigation/>
+
+< TextImage top={'320px'} h3color={"#1D1D1D"} h2color={"#E86A15"} title={"Table Giveaway"} subtitle={"Amplifying Brand Voice"} description={"Our goal is to shape brands to create organic reach on their own. Through an engaging and unique experience brands can create “instagrammable moments” that amplify their brand reach. We thought up a simple and effective way to both reinforce their logo mark (candy skull logo) but also engage customers in a way that promotes the restaurant."} image={LPImage} />
+
+< TextImageLeft h3color={"#E86A15"} subtitle={"Experiences lead to Free Advertising"} description={"Customers sharing their location and their personal experiences is the best free advertising a restaurant can get. With that being said, our team presented an idea to our client: use their logo to create an appealing and easy giveaway that many customers would participate in."} image={BigLPImage} />
+
+< LargeImage image={YellowImage} bottom={'160px'}/>
+
+< PortfolioSlider images={[Slide1, Slide2]} color={"#FAD11B"} path={`los-puntos`}/>
+
+< HoverPlay phone={Phone} video={VideoPlay} image={ArrowPlay} correct={""} changeToBlack bottom={'160px'}/>
+
+< ImageGallery photo1={Jarritos} photo2={Foods} photo3={Taco} />

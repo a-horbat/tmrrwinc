@@ -1,0 +1,111 @@
+.text-video {
+  display: flex;
+}
+.video-block {
+  position: relative;
+  width: 60%;
+  margin-left: -105px;
+}
+.video-image video {
+  border-radius: 7px;
+  width: 727px;
+}
+
+.video-arrow {
+  width: 100%;
+  margin-left: 35vh;
+}
+
+.reviews {
+  padding: 70px 90px 0 130px;
+}
+.watch-videos {
+  position: absolute;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.watch-videos span {
+  background: url(../../images/video-play-button.png) no-repeat left center;
+  background-size: 22px;
+  padding-left: 40px;
+  height: 24px;
+  display: block;
+  color: white;
+}
+.reviews-text {
+  width: 68%;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-video {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .watch-videos {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .text-video {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .reviews {
+    width: 100%;
+    min-width: 100%;
+  }
+  .reviews-text {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .text-video {
+    margin-top: 0px;
+    flex-direction: column;
+    height: 100%;
+    min-width: 100%;
+  }
+  .video-block {
+    width: 90vh;
+    margin-bottom: 20px;
+    margin-left: -50px;
+  }
+  .video-image video {
+    position: relative;
+    width: 100vw;
+  }
+  .video-arrow {
+    margin-left: 25%;
+  }
+
+  .watch-videos span {
+    margin-top: -60px;
+  }
+
+  .watch-videos.video-click {
+    margin-top: 0 !important;
+  }
+  .reviews {
+    padding: 0;
+    padding-left: 80px;
+    width: 60vw;
+    margin-top: 40px;
+  }
+  .reviews-text {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .watch-videos a span {
+    padding-left: 29px;
+    font-size: 13px;
+    margin-top: -7px;
+    margin-left: 5vw;
+  }
+}

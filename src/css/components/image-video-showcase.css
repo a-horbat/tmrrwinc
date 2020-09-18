@@ -1,0 +1,73 @@
+.project-varsity {
+  position: relative;
+  width: 55%;
+  margin-left: 45%;
+  margin-bottom: 150px;
+  margin-top: 90px;
+}
+
+.video-img video {
+  border-radius: 5px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.watch-video {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.watch-video span {
+  background: url(../../images/video-play-button.png) no-repeat left center;
+  background-size: 22px;
+  padding-left: 40px;
+  height: 24px;
+  display: block;
+  color: white;
+}
+.project-video-img {
+  padding: 0;
+}
+@media screen and (max-width: 991px) {
+  .project-varsity {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 80px;
+    margin-top: 0px;
+  }
+  /* .project-varsity video {
+    margin-bottom: 40px;
+    
+  } */
+}
+@media screen and (max-width: 479px) {
+  .project-varsity {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+  }
+  .project-varsity video {
+    margin-top: 10px;
+  }
+
+  .watch-video {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+  .watch-video .watch-text {
+    margin-top: -10%;
+  }
+  .watch-video.video-click {
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 359px) {
+  .watch-video a span {
+    padding-left: 29px;
+    font-size: 13px;
+  }
+}

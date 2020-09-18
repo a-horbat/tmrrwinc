@@ -1,0 +1,41 @@
+.twotext-section {
+  padding: 278px 0 265px 0;
+}
+.twotext-section p {
+  font-size: 20px;
+  line-height: 29px;
+  padding: 0;
+  margin: 0;
+}
+.twotext-section .container {
+  padding: 0 125px;
+}
+.twotext-section .col-lg-6 {
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 1199px) {
+  .twotext-section {
+    padding: 95px 0 90px 0;
+  }
+  .twotext-section .container {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .twotext-section {
+    padding: 85px 0 105px 0;
+  }
+  .twotext-section .container {
+    padding: 0 50px;
+  }
+  .twotext-section .col-md-6:last-child {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .twotext-section {
+    padding-top: 100px;
+  }
+}

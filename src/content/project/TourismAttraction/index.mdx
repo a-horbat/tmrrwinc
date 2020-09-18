@@ -1,0 +1,56 @@
+---
+posttype: "work"
+path: "/work/tourism-attraction"
+date: "2020-02-09"
+backgroundColor: "#005587"
+title: "Tourism & Attraction"
+subtitle: "Lil’ Saying Here"
+tile: "../../../images/work-tiles/TourismAttraction-Tile.mp4"
+projectHeader: "../../../images/work-projects/TourismAttraction/Tourism-Background.png"
+categories:
+  - "Video Production"
+tags:
+  - "app"
+  - "iOS"
+  - "Android"
+cover: "./main.jpg"
+---
+
+import Banner from "../../../components/project/banner"
+import Review from "../../../components/project/review"
+import ProjectInfo from "../../../components/project/project-info"
+import LargeImage from "../../../components/project/largeImage"
+import TwoTextInfo from "../../../components/project/two-text-info"
+import VideoText from "../../../components/project/video-text"
+import Campaign from "../../../components/project/campaign"
+import RightImage from "../../../components/project/right-image"
+import ImageGallery from "../../../components/project/image-gallery"
+
+import Jason from "../../../images/work-projects/TourismAttraction/Tourism-Background.png"
+import Lake from "../../../images/work-projects/TourismAttraction/Tourism-Image.png"
+import LCVid1 from "../../../images/lc_vid1.mp4"
+import LCVid2 from "../../../images/lc_vid2.mp4"
+import Arrow from "../../../images/common/arrow.png"
+import tractor from "../../../images/work-projects/TourismAttraction/Tourism-Image03.jpg"
+import cider from "../../../images/work-projects/TourismAttraction/Tourism-Image02.jpg"
+import dancing from "../../../images/work-projects/TourismAttraction/Tourism-Image04.jpg"
+import thing from "../../../images/work-projects/TourismAttraction/Tourism-Image05.jpg"
+import RightTourismImage from "../../../images/work-projects/TourismAttraction/Tourism-Image06.jpg"
+
+< Banner backgroundImage={Jason} colour={"#1D1D1D"} subtitle={"Lil’ Saying Here"} mobSubtitle={"Lil’ Saying Here"} title={"Tourism & Attraction"} />
+
+< ProjectInfo paragraph={[`We’ve had the privilege of directing and producing dozens of videos and campaigns for Sarnia Lambton tourism and attraction. We worked alongside Ontario’s Blue Coast to create a series of videos highlighting our communities top attractions. Other videos we have directed include one that helped the City of Sarnia score the 7th spot of the top 21 intelligent communities globally`,]} textList={[`Commercial Photography`, `Consulting`, `Campaign Strategy`, `Videography`, `Sound Design`, `Aerial Video/Photo`,]} dataStart={`May 2017 - Present`} links={[{name: `Tourism Sarnia: Conquer the Coast`, link: `blackburnnews.com/sarnia/sarnia-news/2018/06/05/tourism-sarnia-lambton-invites-conquer-coast/`}, {name: `Top 7 Intelligent Communities`, link: `blackburnnews.com/sarnia/sarnia-news/2019/02/12/sarnia-lambton-among-worlds-top-7-intelligent-communities`}]} />
+
+< LargeImage image={Lake} stretch={true} />
+
+< TwoTextInfo text1={[`In 2017 tmrrw inc. began development of what was the most ambitious video marketing campaign ever produced by Ontario’s Blue Coast. tmrrw inc. in partnership with the local tourism board worked to develop a campaign strategy and detailed creative briefs for over a dozen videos including three main `,]} text2={[`videos designed around different demographics and tourism experiences. tmrrw inc. worked independently with dozens of tourism partners across Southwestern Ontario, created impactful content, and produced original music for the campaign.`,]} paddingBottom={"0px"} />
+
+< ImageGallery photo1={tractor} photo2={cider} photo3={dancing} />
+
+< VideoText colour={"#1D1D1D"} text={"The Conquer the Coast campaign was kicked off with a promo video, with three more tailored videos to follow Coastal Creators (Arts, Food and Culture), Cheers to the Coast (Beer and Wine) and Go Coastal (Waterfront). Each video was targeting specific audiences and helped illustrate how they could experience Sarnia-Lambton differently."} videos={[{video: LCVid1, name: "Interview Video 1",}, {video: LCVid2, name: "Interview Video 2",},]} />
+
+< Campaign campaignheaderH2Color={"#1D1D1D"} campaignheaderH3Color={"#512A44"} title={"#ICFGlobal Summit"} subtitle={[`2019 #Top7 Community`]} description={[`Neutra franzen raw denim church-key art party hammock, kickstarter taxidermy humblebrag selvage bitters actually live-edge. Hot chicken butcher health goth craft beer, locavore swag four loko iceland vinyl gochujang artisan. Yuccie keytar messenger bag photo booth pok pok. Subway tile drinking vinegar williamsburg forage schlitz. Selvage hella godard, fashion axe vinyl lyft roof party.`]} image={thing} />
+
+< Review reviewheaderH3Color={"#512A44"} title={["Trusted Down to the Wire", "Breaking into Top 7"]} description={["This production involved managing a lot of logistics and filming with multiple organizations in the community. The timeline was days not weeks and the stakes were high. ISL trusted tmrrw inc. with the production because of our reputation to deliver and we did.", "The project went exceptionally smooth and ultimately Sarnia-Lambton broke into the top 7 for the first time ever.",]} arrow={Arrow} video={LCVid1} />
+
+< RightImage image={RightTourismImage} />
